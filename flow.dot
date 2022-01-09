@@ -1,0 +1,17 @@
+digraph G {
+  { 
+    rankdir=LR
+    a [label="Sleep"]
+    b [label="Eat"]
+    c [label="Pet"]
+    d [label="Poop"]
+    e [label="Drink"]
+    f [label="Pee"]
+  }
+
+  a -> {a b c d e f}
+  b -> {d e a}
+  c -> {a}
+  d -> {a}
+  e -> {b a f}
+}
