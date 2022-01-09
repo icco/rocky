@@ -9,7 +9,7 @@ digraph G {
     f [label="Pee"]
   }
 
-  a -> {a b c d e f}
+  a -> {b c d e f}
   b -> {d e a}
   c -> {a}
   d -> {a}
